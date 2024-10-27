@@ -14,9 +14,8 @@ model-paths: ["dbtdemo/models"]
 # Data models configurations
 models:
   dbtdemo:
-    basic_model:
-        +materialized: table
-        +schema: default
+          +materialized: table
+          +schema: default
 
 vars:
   databricks_catalog: dbtdbx_data
