@@ -3,7 +3,6 @@ version: 1.0.0
 
 config-version: 2
 
-description: "Project to summarize patient treatment data."
 
 # Define your profiles.yml configuration to connect to Databricks
 profile: dbtdbx
@@ -17,11 +16,6 @@ model-paths: ["models"]
 models:
   dbtdemo:
     +materialized: table
-    +schema: default
-
-# Optional: Additional configurations to specify resource locations
-seeds:
-  dbtdemo:
     +schema: default
 
 vars:
