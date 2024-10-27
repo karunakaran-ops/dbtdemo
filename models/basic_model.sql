@@ -1,4 +1,3 @@
-
 INSERT OVERWRITE TABLE dbtdbx_data.default.patient_revenue_summary 
 WITH patient_data AS (
     SELECT
