@@ -12,7 +12,7 @@ target-path: "target"
 model-paths: ["models"]
 
 # Data models configurations
-  dbtdemo:
+models:
     models:
       basic_model:
       +materialized: table
