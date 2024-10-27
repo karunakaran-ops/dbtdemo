@@ -4,16 +4,10 @@ config-version: 2
 
 profile: dbtdbx
 
-# Simple model paths configuration
+# Basic configurations
 model-paths: ["models"]
 
-# Make sure this matches exactly
+# Model configurations
 models:
   dbtdemo:
-    +schema: default
     +materialized: table
-
-vars:
-  databricks_catalog: dbtdbx_data
-
-require-dbt-version: [">=1.0.0"]
