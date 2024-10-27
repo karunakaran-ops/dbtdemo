@@ -11,7 +11,10 @@ target-path: "target"
 model-paths: ["dbtdemo/models"]
 
 # Update the model configurations to match your project structure
-
+models:
+  dbtdemo: # You can specify configurations for all models
+    +materialized: table
+    +schema: default
 
 vars:
   databricks_catalog: dbtdbx_data
