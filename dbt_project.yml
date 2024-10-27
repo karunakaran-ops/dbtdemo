@@ -10,4 +10,5 @@ model-paths: ["models"]
 # Model configurations
 models:
   dbtdemo:
-    +materialized: table
+    +materialized: incremental
+    +schema: default
