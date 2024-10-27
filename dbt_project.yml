@@ -9,7 +9,7 @@ profile: dbtdbx
 target-path: "target"
 
 # Specify where dbt should look for models
-model-paths: ["dbtdemo/models"]
+model-paths: ["dbtdemo"]
 
 # Data models configurations
 models:
