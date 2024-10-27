@@ -9,13 +9,14 @@ profile: dbtdbx
 target-path: "target"
 
 # Specify where dbt should look for models
-model-paths: ["dbtdemo.models"]
+model-paths: ["models"]
 
 # Data models configurations
 models:
-  basic_model:
-    +materialized: table
-    +schema: default
+  dbtdemo:
+    basic_model:
+        +materialized: table
+        +schema: default
 
 vars:
   databricks_catalog: dbtdbx_data
