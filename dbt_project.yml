@@ -3,14 +3,13 @@ version: 1.0.0
 
 config-version: 2
 
-
 # Define your profiles.yml configuration to connect to Databricks
 profile: dbtdbx
 
 target-path: "target"
 
 # Specify where dbt should look for models
-model-paths: ["models"]
+model-paths: ["dbtdemo/models"]
 
 # Data models configurations
 models:
@@ -23,5 +22,3 @@ vars:
 
 # Define which environments this project can run on
 require-dbt-version: [">=1.0.0"]
-
-
