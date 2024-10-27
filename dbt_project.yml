@@ -12,7 +12,6 @@ target-path: "target"
 model-paths: ["models"]
 
 # Data models configurations
-models:
   dbtdemo:
     models:
       basic_model:
