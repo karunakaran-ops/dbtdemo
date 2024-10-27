@@ -3,7 +3,6 @@ version: 1.0.0
 
 config-version: 2
 
-description: "Project to summarize patient treatment data."
 
 # Define your profiles.yml configuration to connect to Databricks
 profile: dbtdbx
@@ -24,4 +23,5 @@ vars:
 
 # Define which environments this project can run on
 require-dbt-version: [">=1.0.0"]
+
 
