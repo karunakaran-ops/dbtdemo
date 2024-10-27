@@ -13,7 +13,7 @@ model-paths: ["dbtdemo"]
 
 # Data models configurations
 models:
-  basic_model:
+  basic_model.sql:
           +materialized: table
           +schema: default
 
