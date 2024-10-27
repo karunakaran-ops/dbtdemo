@@ -13,10 +13,9 @@ model-paths: ["models"]
 
 # Data models configurations
 models:
-    models:
-      basic_model:
-      +materialized: table
-      +schema: default
+  basic_model:
+    +materialized: table
+    +schema: default
 
 vars:
   databricks_catalog: dbtdbx_data
