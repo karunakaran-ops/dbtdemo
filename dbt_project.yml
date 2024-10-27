@@ -2,18 +2,16 @@ name: dbtdemo
 version: 1.0.0
 config-version: 2
 
+# Define your profiles.yml configuration to connect to Databricks
 profile: dbtdbx
 
 target-path: "target"
 
-# Update this - just point to the models directory
-model-paths: ["models"]
+# Update this to point to the models directory
+model-paths: ["dbtdemo/models"]
 
-models:
-  dbtdemo:
-    # Default configurations for all models
-    +materialized: table
-    +schema: default
+# Update the model configurations to match your project structure
+
 
 vars:
   databricks_catalog: dbtdbx_data
