@@ -14,7 +14,8 @@ model-paths: ["models"]
 # Data models configurations
 models:
   dbtdemo:
-    basic_model:
+    models:
+      basic_model:
       +materialized: table
       +schema: default
 
